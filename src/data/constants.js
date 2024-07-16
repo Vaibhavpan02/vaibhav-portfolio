@@ -4,7 +4,7 @@ import task from "../images/task.png"
 import food from "../images/food.png"
 import recipe from "../images/recipe.png"
 import razor from "../images/razor.png"
-import ink from "../images/ink.png"
+import youtube from "../images/youtube.png"
 export const Bio = {
   name: "Vaibhav Pandey",
   roles: [
@@ -147,20 +147,20 @@ export const projects = [
  
   {
     id: 1,
-    title: "InkSync",
+    title: "Youtube Clone",
     date: "June 2024- July 2024",
     description:
-      "A real-time collaborative whiteboard web application built with NextJs, Express.",
+      "The application is designed to replicate the core functionalities of Youtube, including video playback, search. The application leverages the power of React for a responsive and dynamic user interface, Redux for efficient state management, and Sass CSS for sleek and modern styling.",
     image:
-      ink,
+      youtube,
     tags: [
-      "Next Js",
-      "Express",
-      "Tailwind CSS",
+      "React Js",
+      "Redux",
+      "Sass",
     ],
     category: "web app",
-    github: "https://github.com/Vaibhavpan02/Task-Management",
-    webapp: "https://www.inksync.cloud/",
+    github: "https://github.com/Vaibhavpan02/youtube-clone",
+    webapp: "https://youtube-clone-blush-three.vercel.app/",
   },
  {
     id: 2,
