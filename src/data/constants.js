@@ -78,10 +78,10 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
+      // {
+      //   name: "Firebase",
+      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      // },
     ],
   },
 ];
@@ -95,9 +95,9 @@ export const experiences = [
     date: "April 2023 - May 2023",
     desc: `
     - Led the first major effort to create a secure login/signup system and optimize it for best user experience resulted in a 7.5% increase in website’s visual appearance.
-    - Built 7-page website featuring 10 interactive components.
+    - Built 3-page website featuring interactive components.
     - Conceptualized and managed 3+ web pages for data display using appropriate technologies, saving 5 hours of work by using UI library (Bootstrap).
-    - Reduced loading time from 65% to 15% and increased user engagement by 40%, through optimizing HTML and CSS resulting in enhanced website performance of 3 and more websites.
+    // - Reduced loading time from 65% to 15% and increased user engagement by 40%, through optimizing HTML and CSS resulting in enhanced website performance of 3 and more websites.
     `,
   skills: [
       "HTML",
