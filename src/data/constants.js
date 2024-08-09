@@ -4,7 +4,7 @@ import task from "../images/task.png"
 import food from "../images/food.png"
 import recipe from "../images/recipe.png"
 import razor from "../images/razor.png"
-import youtube from "../images/youtube.png"
+import blog from "../images/blog.png"
 export const Bio = {
   name: "Vaibhav Pandey",
   roles: [
@@ -17,6 +17,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1W4kUzhc_N-1ytSequCVwKhPA1sD8IKT1/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vaibhpan",
+
 };
 
 export const skills = [
@@ -48,9 +49,9 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
-        name: "Tailwind CSS",
+        name: "Bootstrap",
         image:
-          "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40chris.to%2Funderstanding-tailwind-css-d22102da2c4c&psig=AOvVaw2pB54W5MRW8RIQjgueRlHL&ust=1723303024993000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCKjJya6IcDFQAAAAAdAAAAABAJ",
+          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
     ],
   },
@@ -77,10 +78,10 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      // {
-      //   name: "Firebase",
-      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      // },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
     ],
   },
 ];
@@ -96,7 +97,7 @@ export const experiences = [
     - Led the first major effort to create a secure login/signup system and optimize it for best user experience resulted in a 7.5% increase in website’s visual appearance.
     - Built 7-page website featuring 10 interactive components.
     - Conceptualized and managed 3+ web pages for data display using appropriate technologies, saving 5 hours of work by using UI library (Bootstrap).
-    // - Reduced loading time from 65% to 15% and increased user engagement by 40%, through optimizing HTML and CSS resulting in enhanced website performance of 3 and more websites.
+    - Reduced loading time from 65% to 15% and increased user engagement by 40%, through optimizing HTML and CSS resulting in enhanced website performance of 3 and more websites.
     `,
   skills: [
       "HTML",
@@ -135,55 +136,57 @@ export const education = [
 
 export const projects = [
  
- //  {
- //    id: 1,
- //    title: "Youtube Clone",
- //    date: "June 2024- July 2024",
- //    description:
- //      "The application is designed to replicate the core functionalities of Youtube, including video playback, search. The application leverages the power of React for a responsive and dynamic user interface, Redux for efficient state management, and Sass CSS for sleek and modern styling.",
- //    image:
- //      youtube,
- //    tags: [
- //      "React Js",
- //      "Redux",
- //      "Sass",
- //    ],
- //    category: "web app",
- //    github: "https://github.com/Vaibhavpan02/youtube-clone",
- //    webapp: "https://youtube-clone-blush-three.vercel.app/",
- //  },
- // {
- //    id: 2,
- //    title: "TaskFlow",
- //    date: "Mar 2024- April 2024",
- //    description:
- //      "Developed using React.js, Redux.js, and Tailwind CSS, this Kanban task management application is designed to streamline project management and task organization.",
- //    image:
- //      task,
- //    tags: [
- //      "React Js",
- //      "Redux",
- //      "Tailwind CSS",
- //    ],
- //    category: "web app",
- //    github: "https://github.com/Vaibhavpan02/Task-Management",
- //    webapp: "https://task-management-six-iota.vercel.app/",
- //  },
   {
-    id:2,
-    title: "Blog Application",
-    date: "June 2024- July 2024",
-    description: 
-      "Developed using React.js, Node.js, Express.js, MongoDB. A blog application is a web-based platform that enables users to create, publish, and manage online journals or blogs. It provides a convenient way for individuals or organizations to share their thoughts, experiences, and expertise with a global audience,
-      image: blog,
-      tags:[
-      "React Js",
-      "MongoDB",
-      "Node Js",
-      "Express Js",
-  category:"web app",
-  github: "https://github.com/Vaibhavpan02/Blog-app-ft",
-  webapp: "https://blog-app-ft.onrender.com/",
+//     id: 1,
+//     title: "Youtube Clone",
+//     date: "June 2024- July 2024",
+//     description:
+//       "The application is designed to replicate the core functionalities of Youtube, including video playback, search. The application leverages the power of React for a responsive and dynamic user interface, Redux for efficient state management, and Sass CSS for sleek and modern styling.",
+//     image:
+//       youtube,
+//     tags: [
+//       "React Js",
+//       "Redux",
+//       "Sass",
+//     ],
+//     category: "web app",
+//     github: "https://github.com/Vaibhavpan02/youtube-clone",
+//     webapp: "https://youtube-clone-blush-three.vercel.app/",
+//   },
+//  {
+//     id: 2,
+//     title: "TaskFlow",
+//     date: "Mar 2024- April 2024",
+//     description:
+//       "Developed using React.js, Redux.js, and Tailwind CSS, this Kanban task management application is designed to streamline project management and task organization.",
+//     image:
+//       task,
+//     tags: [
+//       "React Js",
+//       "Redux",
+//       "Tailwind CSS",
+//     ],
+//     category: "web app",
+//     github: "https://github.com/Vaibhavpan02/Task-Management",
+//     webapp: "https://task-management-six-iota.vercel.app/",
+//   },
+  },
+  {
+      id:2,
+      title: "Blog Application",
+      date: "June 2024- July 2024",
+      description: 
+        "Developed using React.js, Node.js, Express.js, MongoDB. A blog application is a web-based platform that enables users to create, publish, and manage online journals or blogs. It provides a convenient way for individuals or organizations to share their thoughts, experiences, and expertise with a global audience.",
+        image: blog,
+        tags:[
+        "React Js",
+        "MongoDB",
+        "Node Js",
+        "Express Js"
+        ],
+    category:"web app",
+    github: "https://github.com/Vaibhavpan02/Blog-app-ft",
+    webapp: "https://blog-app-ft.onrender.com/",
   },
   {
     id: 3,
